@@ -3,6 +3,7 @@ import './category-item.scss'
 const CategoryItem = ({container}) =>{
     return(
         <div className='category-container'>
+          
         <div 
         className="background-image" 
 
