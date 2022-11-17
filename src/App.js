@@ -1,14 +1,13 @@
 import Home from "./routes/home/homepage";
 import { Routes, Route } from 'react-router-dom';
 import Navigation from "./routes/navigation/navigation.component";
-import { Fragment } from "react/cjs/react.production.min";
 import SignIn from "./routes/sign-in/sign-in.component";
 
 const Shop = () =>{
   return(
-    <Fragment>
+    <>
       <h1>I am on the shop</h1>
-    </Fragment>
+    </>
   )
 }
 
